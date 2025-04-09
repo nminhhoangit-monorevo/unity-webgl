@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Test-0.1.0";
 const contentToCache = [
     "Build/U6Test.loader.js",
-    "Build/U6Test.framework.js.br",
-    "Build/U6Test.data.br",
-    "Build/U6Test.wasm.br",
+    "Build/U6Test.framework.js.unityweb",
+    "Build/U6Test.data.unityweb",
+    "Build/U6Test.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
