@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=800 height=800 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/U6Test.loader.js";
+      var loaderUrl = buildUrl + "/U6Demo.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/U6Test.data.unityweb",
-        frameworkUrl: buildUrl + "/U6Test.framework.js.unityweb",
-        codeUrl: buildUrl + "/U6Test.wasm.unityweb",
+        dataUrl: buildUrl + "/U6Demo.data.unityweb",
+        frameworkUrl: buildUrl + "/U6Demo.framework.js.unityweb",
+        codeUrl: buildUrl + "/U6Demo.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Test",
